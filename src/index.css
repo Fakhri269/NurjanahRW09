@@ -1,0 +1,223 @@
+/* ===== RESET & ROOT VARIABLES ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Indonesian Red & White Palette (Tegas, Wibawa, Bersahaja) */
+  --red-50: #fef2f2;
+  --red-100: #fee2e2;
+  --red-200: #fecaca;
+  --red-500: #ef4444;
+  --red-600: #dc2626;
+  --red-700: #b91c1c;
+  --red-800: #991b1b;
+  --red-900: #7f1d1d;
+
+  /* Gold / Yellow Accent for Election Number */
+  --gold-50: #fffbeb;
+  --gold-100: #fef3c7;
+  --gold-500: #f59e0b;
+  --gold-600: #d97706;
+  --gold-700: #b45309;
+
+  /* Neutral */
+  --white: #ffffff;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-500: #6b7280;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+
+  /* Semantic */
+  --primary: var(--red-700);
+  --primary-hover: var(--red-800);
+  --bg: #ffffff;
+  --bg-subtle: #f9fafb;
+  --text-main: #1f2937;
+  --text-muted: #4b5563;
+  --border: #e5e7eb;
+  --border-strong: #d1d5db;
+
+  /* Typography */
+  --font-main: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  /* Shadows (Alami, bukan neon) */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  --shadow-strong: 0 10px 15px -3px rgba(0, 0, 0, 0.12);
+
+  /* Spacing */
+  --section-padding: 70px 0;
+  --container-max: 1140px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg);
+  color: var(--text-main);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ===== INDONESIAN FLAG RIBBON ===== */
+.flag-ribbon {
+  height: 6px;
+  width: 100%;
+  display: flex;
+}
+
+.flag-ribbon-red {
+  height: 100%;
+  width: 50%;
+  background: var(--red-600);
+}
+
+.flag-ribbon-white {
+  height: 100%;
+  width: 50%;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* ===== SECTION HEADERS (RESMI & TEGAS) ===== */
+.section {
+  padding: var(--section-padding);
+}
+
+.section-header-center {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.section-badge-kampanye {
+  display: inline-block;
+  background: var(--red-100);
+  color: var(--red-800);
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-radius: 4px;
+  border: 1px solid var(--red-200);
+  margin-bottom: 12px;
+}
+
+.section-title-formal {
+  font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+  font-weight: 900;
+  color: var(--gray-900);
+  line-height: 1.25;
+  margin-bottom: 12px;
+  letter-spacing: -0.01em;
+}
+
+.section-title-formal span {
+  color: var(--primary);
+}
+
+.section-subtitle-formal {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  max-width: 640px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.red-divider-center {
+  width: 80px;
+  height: 4px;
+  background: var(--red-600);
+  margin: 16px auto 0;
+  border-radius: 2px;
+}
+
+/* ===== BUTTONS (TEGAS & JELAS) ===== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-family: var(--font-main);
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  line-height: 1.4;
+}
+
+.btn-primary {
+  background: var(--red-600);
+  color: white;
+  border: 1px solid var(--red-700);
+  box-shadow: 0 2px 4px rgba(185, 28, 28, 0.25);
+}
+
+.btn-primary:hover {
+  background: var(--red-700);
+  box-shadow: 0 4px 8px rgba(185, 28, 28, 0.35);
+  transform: translateY(-1px);
+}
+
+.btn-coblos-besar {
+  background: linear-gradient(180deg, #dc2626 0%, #b91c1c 100%);
+  color: #ffffff;
+  font-size: 1.15rem;
+  font-weight: 900;
+  padding: 16px 36px;
+  border-radius: 8px;
+  border: 2px solid #991b1b;
+  box-shadow: 0 4px 12px rgba(185, 28, 28, 0.35);
+  letter-spacing: 0.02em;
+}
+
+.btn-coblos-besar:hover {
+  background: #991b1b;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(185, 28, 28, 0.45);
+}
+
+.btn-outline-red {
+  background: #ffffff;
+  color: var(--red-700);
+  border: 2px solid var(--red-600);
+}
+
+.btn-outline-red:hover {
+  background: var(--red-50);
+  border-color: var(--red-700);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 48px 0;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
