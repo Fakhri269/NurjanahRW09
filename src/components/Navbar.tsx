@@ -32,7 +32,7 @@ export default function Navbar() {
         >
           <div className="navbar-badge-number">03</div>
           <div className="navbar-brand-text">
-            <span className="navbar-candidate-title">CALON KETUA RW</span>
+            <span className="navbar-candidate-title">CALON KETUA RW 09</span>
             <span className="navbar-candidate-name">IBU NURJANAH</span>
           </div>
         </a>

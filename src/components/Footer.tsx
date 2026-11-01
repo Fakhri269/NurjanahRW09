@@ -20,7 +20,7 @@ export default function Footer() {
             <div className="footer-badge-box">
               <span className="footer-badge-num">03</span>
               <div className="footer-badge-text">
-                <span className="footer-badge-tag">CALON KETUA RW</span>
+                <span className="footer-badge-tag">CALON KETUA RW 09</span>
                 <span className="footer-badge-name">IBU NURJANAH</span>
               </div>
             </div>
@@ -45,7 +45,7 @@ export default function Footer() {
               Perbedaan pilihan adalah hal wajar dalam demokrasi lingkungan. Yang terpenting, tali silaturahmi, gotong royong, dan kerukunan antarwarga tetap nomor satu.
             </p>
             <div className="footer-callout">
-              <strong>Mari Bersatu untuk Lingkungan RW</strong>
+              <strong>Mari Bersatu untuk Lingkungan RW 09</strong>
               <span>Satukan suara dan doa restu kita bersama Ibu Nurjanah Nomor Urut 03.</span>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function Footer() {
 
         <div className="footer-bottom-bar">
           <p className="footer-copyright">
-            &copy; 2026 Tim Relawan & Warga Pendukung Ibu Nurjanah (Calon Ketua RW Nomor Urut 03).
+            &copy; 2026 Tim Relawan & Warga Pendukung Ibu Nurjanah (Calon Ketua RW 09 Nomor Urut 03).
           </p>
           <button
             className="footer-btn-top"

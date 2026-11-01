@@ -19,7 +19,7 @@ export default function Hero() {
           <p className="spanduk-bismillah-latin">BISMILLAHIRRAHMANIRRAHIM</p>
           <p className="spanduk-kop-sub">MOHON DOA RESTU & DUKUNGAN WARGA</p>
           <h1 className="spanduk-kop-title">
-            PEMILIHAN KETUA RUKUN WARGA (RW) PERIODE 2026 – 2031
+            PEMILIHAN KETUA RUKUN WARGA (RW 09) PERIODE 2026 – 2031
           </h1>
         </div>
 
@@ -27,7 +27,7 @@ export default function Hero() {
           {/* Sisi Kiri: Informasi Nomor Urut & Ajakan Coblos */}
           <div className="spanduk-info">
             <div className="spanduk-nomor-box">
-              <span className="spanduk-nomor-tag">CALON KETUA RW NOMOR URUT</span>
+              <span className="spanduk-nomor-tag">CALON KETUA RW 09 NOMOR URUT</span>
               <div className="spanduk-nomor-angka">03</div>
               <div className="spanduk-coblos-badge">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" width="20" height="20">
@@ -66,7 +66,7 @@ export default function Hero() {
                 <div className="foto-kandidat-avatar">
                   <img
                     src="/nurjanah.jpg"
-                    alt="Foto Resmi Ibu Nurjanah - Calon Ketua RW No. 03"
+                    alt="Foto Resmi Ibu Nurjanah - Calon Ketua RW 09 No. 03"
                     className="foto-kandidat-img"
                   />
                 </div>
@@ -74,7 +74,7 @@ export default function Hero() {
 
               <div className="foto-card-identitas">
                 <h3 className="identitas-nama">IBU NURJANAH</h3>
-                <p className="identitas-status">Calon Ketua RW Pilihan Kita Bersama</p>
+                <p className="identitas-status">Calon Ketua RW 09</p>
               </div>
 
 

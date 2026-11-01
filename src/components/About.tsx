@@ -57,14 +57,14 @@ export default function About() {
             Visi, Misi & <span>Semangat Pengabdian</span>
           </h2>
           <p className="section-subtitle-formal">
-            Pedoman utama Ibu Nurjanah (Calon Ketua RW Nomor Urut 03) untuk mewujudkan lingkungan yang lebih baik.
+            Pedoman utama Ibu Nurjanah (Calon Ketua RW 09 Nomor Urut 03) untuk mewujudkan lingkungan yang lebih baik.
           </p>
           <div className="red-divider-center" />
         </div>
 
         {/* VISI BOX */}
         <div className="visi-banner-official">
-          <div className="visi-tag-badge">VISI CALON KETUA RW</div>
+          <div className="visi-tag-badge">VISI CALON KETUA RW 09</div>
           <blockquote className="visi-quote">
             “Mewujudkan Lingkungan RW yang Religius, Aman, Rukun, Maju, dan Sejahtera melalui Pelayanan yang Amanah, Transparan, serta Gotong Royong.”
           </blockquote>
