@@ -51,7 +51,7 @@ export default function About() {
     <section className="section profil-section" id="visi-misi">
       <div className="container">
         {/* Header Section */}
-        <div className="section-header-center">
+        <div className="section-header-center reveal-up">
           <span className="section-badge-kampanye">ARAH & KOMITMEN KERJA</span>
           <h2 className="section-title-formal">
             Visi, Misi & <span>Semangat Pengabdian</span>
@@ -63,7 +63,7 @@ export default function About() {
         </div>
 
         {/* VISI BOX */}
-        <div className="visi-banner-official">
+        <div className="visi-banner-official reveal-scale delay-1">
           <div className="visi-tag-badge">VISI CALON KETUA RW 09</div>
           <blockquote className="visi-quote">
             “Mewujudkan Lingkungan RW yang Religius, Aman, Rukun, Maju, dan Sejahtera melalui Pelayanan yang Amanah, Transparan, serta Gotong Royong.”
@@ -72,14 +72,14 @@ export default function About() {
 
         {/* 7 MISI KAMPANYE */}
         <div className="misi-wrapper">
-          <div className="misi-header">
+          <div className="misi-header reveal-up">
             <h3 className="misi-section-title">7 MISI UTAMA</h3>
             <span className="misi-subtitle">Langkah Konkret Menuju Perubahan Nyata</span>
           </div>
 
           <div className="misi-grid">
-            {misiList.map((m) => (
-              <div key={m.nomor} className="misi-card">
+            {misiList.map((m, idx) => (
+              <div key={m.nomor} className={`misi-card reveal-up delay-${(idx % 4) + 1}`}>
                 <div className="misi-card-header">
                   <div className="misi-badge-num">{m.nomor}</div>
                   <h4 className="misi-card-title">{m.judul}</h4>
@@ -92,7 +92,7 @@ export default function About() {
 
         {/* SEMANGAT DAN KOMITMEN */}
         <div className="komitmen-wrapper">
-          <div className="komitmen-header">
+          <div className="komitmen-header reveal-up">
             <span className="komitmen-badge">SEMANGAT & KOMITMEN</span>
             <h3 className="komitmen-tagline">
               "Bukan Sekadar Memimpin, Tetapi Melayani.<br />
@@ -103,7 +103,7 @@ export default function About() {
 
           <div className="semangat-pilar-grid">
             {nilaiSemangat.map((s, idx) => (
-              <div key={idx} className="semangat-pilar-card">
+              <div key={idx} className={`semangat-pilar-card reveal-up delay-${idx + 1}`}>
                 <span className="pilar-point">&#10003;</span>
                 <div className="pilar-content">
                   <strong className="pilar-name">{s.pilar}</strong>
@@ -115,7 +115,7 @@ export default function About() {
         </div>
 
         {/* SLOGAN KAMPANYE BANNER */}
-        <div className="slogan-campaign-banner">
+        <div className="slogan-campaign-banner reveal-scale delay-1">
           <span className="slogan-badge-label">SLOGAN KAMPANYE</span>
           <h3 className="slogan-campaign-text">
             "Bersama Membangun, Bersama Menjaga, Bersama Memajukan Lingkungan."

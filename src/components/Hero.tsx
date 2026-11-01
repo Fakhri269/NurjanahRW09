@@ -10,7 +10,7 @@ export default function Hero() {
       {/* Banner Utama Kampanye RW */}
       <div className="container">
         {/* Kop Atas Spanduk */}
-        <div className="spanduk-kop">
+        <div className="spanduk-kop reveal-up">
           <img
             src="/bismillah.png"
             alt="Bismillahirrahmanirrahim"
@@ -25,7 +25,7 @@ export default function Hero() {
 
         <div className="spanduk-body">
           {/* Sisi Kiri: Informasi Nomor Urut & Ajakan Coblos */}
-          <div className="spanduk-info">
+          <div className="spanduk-info reveal-left delay-1">
             <div className="spanduk-nomor-box">
               <span className="spanduk-nomor-tag">CALON KETUA RW 09 NOMOR URUT</span>
               <div className="spanduk-nomor-angka">03</div>
@@ -57,7 +57,7 @@ export default function Hero() {
           </div>
 
           {/* Sisi Kanan: Kartu Foto Calon Bersahaja */}
-          <div className="spanduk-foto-frame">
+          <div className="spanduk-foto-frame reveal-right delay-2">
             <div className="foto-card-wrapper">
 
 

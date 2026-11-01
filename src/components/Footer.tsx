@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="container footer-content">
         <div className="footer-top-grid">
           {/* Kolom 1: Slogan & Identitas */}
-          <div className="footer-brand-col">
+          <div className="footer-brand-col reveal-left">
             <div className="footer-badge-box">
               <span className="footer-badge-num">03</span>
               <div className="footer-badge-text">
@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
 
           {/* Kolom 2: Navigasi Cepat */}
-          <div className="footer-links-col">
+          <div className="footer-links-col reveal-up delay-1">
             <h4 className="footer-col-title">Navigasi Halaman</h4>
             <ul className="footer-nav-list">
               <li><a href="#home" onClick={(e) => { e.preventDefault(); scrollTo('#home') }}>Beranda Spanduk</a></li>
@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
 
           {/* Kolom 3: Pesan Kebersamaan */}
-          <div className="footer-pesan-col">
+          <div className="footer-pesan-col reveal-right delay-2">
             <h4 className="footer-col-title">Pesan Warga</h4>
             <p className="footer-pesan-text">
               Perbedaan pilihan adalah hal wajar dalam demokrasi lingkungan. Yang terpenting, tali silaturahmi, gotong royong, dan kerukunan antarwarga tetap nomor satu.
