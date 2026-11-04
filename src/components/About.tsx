@@ -61,6 +61,8 @@ const dwpSlides = [
   { src: '/dwp-11.jpg', caption: 'Ibu Nurjanah bersama Panji Dharma Wanita Persatuan — November 2020' },
   { src: '/dwp-12.jpg', caption: 'Sinergitas DWP PDAM Tirta Kahuripan Kab. Bogor ke Kota Solo' },
   { src: '/dwp-13.jpg', caption: 'Rapat Kerja & Koordinasi Bersama Pengurus DWP PDAM Tirta Kahuripan' },
+  { src: '/dwp-14.webp', caption: 'Kunjungan Kerja DWP PDAM Tirta Kahuripan ke Tirta Mangutama Kab. Badung, Bali' },
+  { src: '/dwp-15.png', caption: 'Ibu Nurjanah memberikan sambutan dalam pertemuan kunjungan kerja resmi DWP' },
 ]
 
 const musholaSlides = [
