@@ -3,7 +3,9 @@ import './Navbar.css'
 
 const navLinks = [
   { label: 'Beranda', href: '#home' },
-  { label: 'Visi, Misi & Komitmen', href: '#visi-misi' },
+  { label: 'Visi & Misi', href: '#visi-misi' },
+  { label: 'Pengalaman Kerja', href: '#pengalaman' },
+  { label: 'Komitmen', href: '#komitmen' },
 ]
 
 export default function Navbar() {

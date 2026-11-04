@@ -34,7 +34,9 @@ export default function Footer() {
             <h4 className="footer-col-title">Navigasi Halaman</h4>
             <ul className="footer-nav-list">
               <li><a href="#home" onClick={(e) => { e.preventDefault(); scrollTo('#home') }}>Beranda Spanduk</a></li>
-              <li><a href="#visi-misi" onClick={(e) => { e.preventDefault(); scrollTo('#visi-misi') }}>Visi, Misi & Komitmen</a></li>
+              <li><a href="#visi-misi" onClick={(e) => { e.preventDefault(); scrollTo('#visi-misi') }}>Visi & Misi</a></li>
+              <li><a href="#pengalaman" onClick={(e) => { e.preventDefault(); scrollTo('#pengalaman') }}>Pengalaman Kerja</a></li>
+              <li><a href="#komitmen" onClick={(e) => { e.preventDefault(); scrollTo('#komitmen') }}>Semangat & Komitmen</a></li>
             </ul>
           </div>
 
